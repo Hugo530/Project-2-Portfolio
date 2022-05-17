@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Hugo530/Project-2-Portfolio">
-    <img src="https://github.com/Hugo530/Project-2-Portfolio/blob/main/images/pig.png" alt="Logo" width="100" height="100">
+    <img src="https://github.com/Hugo530/Project-2-Portfolio/blob/main/css/images/pig.png" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Pig-E-Bank</h3>
