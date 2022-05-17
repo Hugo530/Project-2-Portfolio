@@ -30,10 +30,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/Hugo530/Project-2-Portfolio">
-    <img src="https://github.com/Hugo530/Project-2-Portfolio/blob/main/images/pig.png" alt="Logo" width="100" height="100">
+    <img src="https://github.com/Hugo530/Project-2-Portfolio/blob/main/css/images/pig.png" alt="Logo" width="100" height="100">
   </a>
 
-<h3 align="center">Pig-E-Bank</h3>
+<h3 align="center">Hugo Sanchez Portfolio</h3>
 
   <p align="center">
     My name is Hugo Sanchez, below you will see my Portolio I am currently attending UT Austin's Coding Bootcamp! I have attatched both my project 1, and project 2 links below along with some Homework activities feel free to click on them I hope you enjoy them!
@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot](./Pig%20E-Bank%20Demo.gif)
 
 
 
