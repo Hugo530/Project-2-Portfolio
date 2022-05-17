@@ -1,0 +1,218 @@
+
+ :root {
+   --backGround: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+   --body: linear-gradient(to right, #000000, #0f9b0f); 
+ }
+ 
+ .header {
+   background: var(--backGround);
+ }
+
+
+body {
+  background: var(--backGround);
+}
+
+h1 {
+  
+  font-size: 40px;
+  letter-spacing: .1em;
+text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+ 
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-size: 25px;
+  color: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  
+}
+
+
+.navbar a {
+  padding-left: 15px;
+  padding-right: 10px;
+  color: rgb(87, 75, 75)
+}
+
+/* Change the color of links on hover */
+ .navbar a:hover {
+  background-color: rgb(12, 143, 44);
+  color: black;
+} 
+
+/* Add a green background color to the active link */
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+  display: none;
+} 
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--bg);
+} 
+ 
+
+#aboutMe {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
+} 
+
+aside {
+  display: flex;
+  width: 15%;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding-right: 8px;
+  margin-left: 1%;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+  font-size: 42px;
+  color: black;
+
+}
+
+.text {
+  
+  display: flex;
+  width: 80%;
+  font-size: 22px;
+  flex-wrap: wrap;
+  padding-left: 14px;
+}
+
+ 
+#work {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#bigpic {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  flex-grow: 1;
+  border: 6px solid lightgray;
+}
+
+#projpics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  max-width: 80%;
+  padding-left: 5px;
+  flex-shrink: 1;
+}
+
+#project {
+  position: relative;
+  display: flex;
+  max-width: 300px;
+  flex-direction: row;
+  border: 6px solid lightgray;
+  padding-left: 10px;
+ 
+  
+}
+
+#proj1 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: inherit;
+  color: white;
+  z-index: 1;
+  margin-top: 21px;
+  margin-left: 21px;
+ 
+}
+
+#proj2 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: inherit;
+  color: white;
+  z-index: 1;
+  margin-top: 21px;
+  margin-left: 21px;
+  
+}
+
+#proj3 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: inherit;
+  color: white;
+  z-index: 1;
+  margin-top: 21px;
+  margin-left: 21px;
+ 
+}
+
+#proj4 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: inherit;
+  color: black;
+  z-index: 1;
+  margin-top: 21px;
+  margin-left: 21px;
+  
+} 
+
+#contact {
+  display: flex;
+  width: 15%;
+  flex-wrap: wrap;
+  padding-right: 8px;
+  margin-left: 1%;
+}
+
+footer ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+}
+
+footer li a {
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--maroon);
+  border-bottom: 3px solid var(--maroon);
+  text-decoration: inherit;
+  margin-right: 30px;
+}
+
+
+
+
